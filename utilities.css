@@ -1,0 +1,11 @@
+.text-white{
+    color: white;
+}
+.display-none{
+    display: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
