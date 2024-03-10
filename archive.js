@@ -6,7 +6,6 @@ let arrayofnotes = JSON.parse(localStorage.getItem("notes"));
 
 archContainer.innerHTML = renderNotes(arrayofnotes.filter(element => element.isarchive == true));
 
-//
 archContainer.addEventListener(("click"), (e) =>{
     // console.log(e.target.dataset.id, e.target.dataset.type);
     let type = e.target.dataset.type;
